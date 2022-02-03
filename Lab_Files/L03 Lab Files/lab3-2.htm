@@ -5,17 +5,15 @@
 <title>Lab 3-2</title>
 
 <script type="text/javascript">
-<!--
 
-/******************************************************
-Define a function that takes arguments on function call
-******************************************************/
-  
-/******************************************************
-Define a function that takes returns a value
-******************************************************/
+    function arg() {
+        alert("Your function has been called with an argument: Welcome!")
+    }
 
-//-->
+    function ret() {
+        return alert("Hi, this value is returned from a function.")
+    }
+
 </script>
 
 </head>
@@ -28,8 +26,8 @@ Define a function that takes returns a value
 <!-- Add an onclick event handler to call the function -->
 
 <form name="myForm">
-<input type="button" value="Call Function with arguments" /><br />
-<input type="button" value="Call Function with return" />
+<input type="button" value="Call Function with arguments" onclick="arg()"/><br />
+<input type="button" value="Call Function with return" onclick="ret()"/>
 </form>
 
 </body>
