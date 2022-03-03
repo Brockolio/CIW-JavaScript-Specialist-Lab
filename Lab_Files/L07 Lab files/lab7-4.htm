@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8" />
-<title>Lab 7-4</title>
+    <meta charset="utf-8" />
+    <title>Lab 7-4</title>
 
-<script type="text/javascript">
-<!--
+    <script type="text/javascript">
 
-//create citiesArray
-//Use New York, Los Angeles, Chicago
+        var citiesArray = ["New York", "Los Angles", "Chicago"];
+        var len = citiesArray;
+        citiesArray.sort();
+        for (i = 0; i < len;) {
+            document.write("<br>" + citiesArray[i] + "</br>");
+        }
+        document.write(citiesArray)
 
-
-
-
-//-->
-</script>
+    </script>
 </head>
+
 <body>
-<h3>CIW JavaScript Specialist</h3>
-<hr />
-<script type="text/javascript">
-<!--
+    <h3>CIW JavaScript Specialist</h3>
+    <hr />
+    <script type="text/javascript">
 
-//output citiesArray
+        document.write(citiesArray[0])
 
-
-
-
-
-//-->
-</script>
+    </script>
 </body>
+
 </html>
